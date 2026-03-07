@@ -6,7 +6,7 @@ description: 'Consulta el detalle completo de una película específica. movie_i
 order: 14000
 headers:
   - key: Authorization
-    value: '35b7549ba1d405c32c7fe6dee7463892'
+    value: 'Bearer {{tmdb_api_key}}'
   - key: accept
     value: 'application/json'
 queryParams:
